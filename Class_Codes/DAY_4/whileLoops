@@ -1,0 +1,8 @@
+num=7
+bound=110
+def multiples(number,bound):
+    mult=number
+    while mult<bound:
+        print(mult, end=" ")
+        mult=mult+number
+print(multiples(num,bound))
