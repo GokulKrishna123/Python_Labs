@@ -1,7 +1,20 @@
-import re
-
-pattern=r'\b\d{4}[-/]\d{2}[-/]\d{2}'
-inputString='sample 2013-04-02 sheet shared 2024/12/23 with HOD'
-
-result=re.findall(pattern,inputString,re.IGNORECASE)
-print(result)
+input_code=''
+while(input_code != '5'):
+    print("1. Add 2 numbers\n2. Subtract 2 numbers\n3. Multiply 2 numbers\n4. Divide 2 numbers\n5. EXIT\n ")
+    input_code=input("Enter your choice\n")
+    if(input_code=='1'):
+        a=int(input("Enter value for a: "))
+        b=int(input("Enter value for b: "))
+        print("a+b= ",a+b)
+    if(input_code=='2'):
+        a=int(input("Enter value for a: "))
+        b=int(input("Enter value for b: "))
+        print("a-b= ",a-b)
+    if(input_code=='3'):
+        a=int(input("Enter value for a: "))
+        b=int(input("Enter value for b: "))
+        print("a*b= ",a*b)
+    if(input_code=='4'):
+        a=int(input("Enter value for a: "))
+        b=int(input("Enter value for b: "))
+        print("a/b= ",a/b)
