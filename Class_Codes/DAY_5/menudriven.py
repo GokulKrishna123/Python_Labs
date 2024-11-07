@@ -1,24 +1,20 @@
-def operation(operand):
-    a=(int(input("Enter Number a :")))
-    b=(int(input("Enter Number b :")))
-    if(operand=='+'):
-        return a+b
-    elif(operand=='-'):
-        return a-b
-    elif(operand=='*'):
-        return a*b
-        
-
-option=0
-while(option!=4):
-    print("\n\n***********Menu*****************")
-    print("1. Add Numbers\n2. Subtract Numbers\n3. Multiply Numbers \n4. Exit")
-    print("Please enter your Option : ")
-    option=int(input())
-    if(option==1):
-        print("Result :",operation("+"))
-    elif(option==2):
-        print("Result :",operation("-"))
-
-    elif(option==3):
-        print("Result :",operation("*"))
+input_code=''
+while(input_code != '5'):
+    print("1. Add 2 numbers\n2. Subtract 2 numbers\n3. Multiply 2 numbers\n4. Divide 2 numbers\n5. EXIT\n ")
+    input_code=input("Enter your choice\n")
+    if(input_code=='1'):
+        a=int(input("Enter value for a: "))
+        b=int(input("Enter value for b: "))
+        print("a+b= ",a+b)
+    if(input_code=='2'):
+        a=int(input("Enter value for a: "))
+        b=int(input("Enter value for b: "))
+        print("a-b= ",a-b)
+    if(input_code=='3'):
+        a=int(input("Enter value for a: "))
+        b=int(input("Enter value for b: "))
+        print("a*b= ",a*b)
+    if(input_code=='4'):
+        a=int(input("Enter value for a: "))
+        b=int(input("Enter value for b: "))
+        print("a/b= ",a/b)
