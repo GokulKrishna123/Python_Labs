@@ -6,11 +6,11 @@ cursor = connection.cursor()
 cursor.execute(
    """UPDATE Customer 
    SET Email=?
-   WHERE CustomerId=?""",('athira.gmail.com',679)
+   WHERE CustomerId=?""",('GokulKrishna.gmail.com',679)
 )
 connection.commit()
 cursor.execute(
-   """ SELECT * FROM Customer WHERE CustomerId=679"""
+   """ SELECT * FROM Customer WHERE CustomerId=62354"""
 )
 rows=cursor.fetchall()
 desc =cursor.description

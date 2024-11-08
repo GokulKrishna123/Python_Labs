@@ -4,7 +4,7 @@ connection = sqlite3.connect(r"C:\Users\Administrator\Desktop\UST_Training\DAY15
 cursor = connection.cursor()
 
 cursor.execute(
-   """ SELECT * FROM Customer WHERE FirstName='Athira'"""
+   """ SELECT * FROM Customer WHERE FirstName='Gokul'"""
 )
 rows=cursor.fetchall()
 desc =cursor.description
