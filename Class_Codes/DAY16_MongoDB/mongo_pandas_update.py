@@ -15,7 +15,7 @@ try:
     query = {"_id": ObjectId(docId)}
     
 
-    update={"$set" :{"name":"Athira Muraleedharan",
+    update={"$set" :{"name":"Gokul Krishna",
                      "age":"100",
                      "city":"COK"}}
     result = collection.update_one(query,update)

@@ -22,7 +22,7 @@ Base.metadata.create_all(engine)
 session = SessionLocal()
 
 #create
-#new_user = User(name="Akshay",age=99)
+#new_user = User(name="David",age=99)
 #session.add(new_user)
 #session.commit()
 

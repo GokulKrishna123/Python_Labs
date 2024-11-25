@@ -4,7 +4,7 @@ import pandas as pd
 url="https://jsonplaceholder.typicode.com/posts"
 
 data={
-    'title':'athira',
+    'title':'Gokul Krishna',
     'body': 'hello'
 }
 

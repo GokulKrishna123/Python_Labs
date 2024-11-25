@@ -12,7 +12,7 @@ try:
     collection=db['basic_collection_test']
 
     #docId= '67383a8cdef166f424f1d4eb'
-    query = {"Name": "Athira M"}
+    query = {"Name": "Gokul Krishna"}
     
 
     results = collection.find(query)
