@@ -8,7 +8,7 @@ import json
 
 
 """Get data from Mongodb and convert to DF"""
-uri="mongodb+srv://athiraMuraleedharan:Beta$1234566@cluster0.a3wjc.mongodb.net"
+uri="mongodb+srv://gokulkrishnalj:Beta$1234566@cluster0.a3wjc.mongodb.net"
 
 try:
         client = MongoClient(uri,tlsAllowInvalidCertificates=True)
